@@ -157,7 +157,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe all sections and cards
-document.querySelectorAll('section, .project-card, .skill-category, .cert-card, .stat-item, .experience-card, .language-card, .blog-card').forEach(el => {
+document.querySelectorAll('section, .project-card, .skill-category, .cert-card, .stat-item, .experience-card, .language-card, .blog-card, .ctf-item, .education-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
